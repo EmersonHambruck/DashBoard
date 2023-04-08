@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="zanimations.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header id="header">
+            <div id="header-l">
+                <div id="logo">
+                    <img src="Images/logo.png" alt="" class="logo">
+                </div>
+                <div id="circle">
+                    <i class="fa-solid fa-align-left"></i>
+                </div>
+
+                <i class="fa fa-magnifying-glass" id="find"></i>
+                <input id="searchtext" type="text" placeholder="Search User, Events and more..." />
+            </div>
+
+            <div id="header-r">
+                <div id="language">
+                    <p>English</p>
+                    <i class="fa-solid fa-chevron-down" id="chevron"></i>
+                </div>
+                <i class="fa fa-gear" id="gear"></i>
+                <i class="fa-regular fa-bell" id="bell"></i>
+                <div id="notification">
+                    <div id="circlenotify">
+                        <b>1</b>
+                    </div>
+                </div>
+                <div id="user">
+                    <img src="/Images/beleza-salao1-gd-768x512.png" id="userimg" />
+                </div>
+            </div>
+        </header>
+
+        <div id="nav">
+            <div id="nav-l">
+                <div id="back">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <p>Back</p>
+                </div>
+                <div id="local">
+                    <b id="local-text">Home</b>
+                    <b id="local-text">/ Apps</b>
+                    <b>/ File Manager</b>
+                </div>
+            </div>
+
+            <div id="nav-r">
+                <button id="import-box">
+                    <div id="import">
+                        <i class="fa fa-arrow-up-right-from-square fa-rotate-180"></i>
+                        <p>import</p>
+                    </div>
+                </button>
+                <button id="export-box">
+                    <div id="export">
+                        <i class="fa fa-arrow-up-right-from-square"></i>
+                        <p>export</p>
+                    </div>
+                </button>
+                <button id="category-box">
+                    <div id="category">
+                        <p>Category</p>
+                        <i class="fa-solid fa-chevron-down" id="chevron"></i>
+                    </div>
+                </button>
+            </div>
+        </div>
+
+        <div class="aside">
+            <div class="list-a">
+                <dl>
+                    <dt><i class="fa-sharp fa fa-house-chimney"></i>
+                    <dt id="building"><i class="fa-solid fa-building"></i>
+                    <dt><i class="fa fa-hourglass-half"></i>
+                    <dt><i class="fa-regular fa-envelope"></i>
+                    <dt><i class="fa-solid fa-file-lines"></i>
+                    <dt><i class="fa-regular fa-calendar-days"></i>
+                    <dt><i class="fa-regular fa-comment"></i>
+                    <dt> <i class="fa fa-gear"></i>
+                    <dt><i class="fa-solid fa-user-tie"></i>
+                </dl>
+            </div>
+            <div id="status">
+                <div id="user-status">
+                    <img src="/Images/beleza-salao1-gd-768x512.png" id="userimg-status" />
+                </div>
+                <div id="circle-status">
+                </div>
+                <b id="name">Natalie</b>
+            </div>
+        </div>
+
+        <div class="main">
+            <div id="top">
+                <h1>File Manager</h1>
+                <a href=""><b> Create New Folder</b></a>
+            </div>
+
+            <div id="main-box">
+                <div id="main-menu">
+
+                    <div id="top-menu">
+                        <dl>
+                            <dt><i class="fa-sharp fa fa-house-chimney"><b>Home</b></i>
+                            <dt><i class="fa-solid fa-building"><b>Files</b></i>
+                            <dt><i class="fa fa-hourglass-half"><b>Standard</b></i>
+                            <dt><i class="fa-regular fa-envelope"><b>Shared</b></i>
+                            <dt><i class="fa-solid fa-file-lines"><b>Recent</b></i>
+                            <dt><i class="fa-regular fa-calendar-days"><b>Recovery</b></i>
+                            <dt><i class="fa-regular fa-comment"><b>Settings</b></i>
+                            <dt> <i class="fa fa-gear"><b>Zip Files</b></i>
+                        </dl>
+                        <div id="upload-create">
+                            <div id="upload">
+                                <P>Upload</P>
+                            </div>
+                            <div id="create">
+                                <P>Create</P>
+                            </div>
+                        </div>
+                        <div id="under-menu">
+                            <div id="under-up">
+                                <img src="/Images/carta.JPG" alt="" id="letter">
+                                <div id="letter-r">
+                                    <div id="storage-box">
+                                        <i class="fa-solid fa-server">
+                                        </i>
+                                        <p id="storage">Storage</p>
+                                    </div>
+                                    <a href="">
+                                        <p id="upgrade">Upgrade</p>
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div id="under-down">
+                            </div>
+                            <div id="charge">
+                                <div id="charge-pink"></div>
+                                <div id="charge-grey"></div>
+                            </div>
+                            <p id="grey-txt">08.25 GB of 20GB used</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="personal-plan">
+                    <div id="plan-box">
+                        <div id="plan-l">
+
+                            <p id="plan-txt">Personal Plan</p>
+                            <div id="only-txt">
+                                <p>Only you</p>
+                            </div>
+                        </div>
+                        <div id="plan-r">
+                            <i class="fa-solid fa-chevron-up"></i>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                    </div>
+                    <div id="details">
+                        <u><b>Upgrade Plan - See Details</b></u>
+                    </div>
+                </div>
+            </div>
+
+            <div id="countainer-2">
+                <div id="file-types">
+
+                    <div id="type-box">
+                        <div id="images">
+                            <i class="fa-solid fa-ellipsis-vertical" id="ellipsis"></i>
+                            <div id="circle-images">
+                                <img src="Images/galery.png" alt="" id="image-types">
+                            </div>
+                            <i class="fa-solid fa-star" id="star"></i>
+                        </div>
+                        <b id="image-txt">Images</b>
+                    </div>
+                    <div id="type-box">
+                        <div id="documents">
+                            <i class="fa-solid fa-ellipsis-vertical" id="ellipsis"></i>
+                            <div id="circle-documents">
+                                <img src="Images/books-removebg-preview.png" alt="" id="image-types">
+                            </div>
+                            <i class="fa-solid fa-star" id="star"></i>
+                        </div>
+                        <b id="documents-txt">Documents</b>
+                    </div>
+                    <div id="type-box">
+                        <div id="videos">
+                            <i class="fa-solid fa-ellipsis-vertical" id="ellipsis"></i>
+                            <div id="circle-videos">
+                                <img src="Images/youtube-logo-icone-bleue.png" alt="" id="image-types">
+                            </div>
+                            <i class="fa-solid fa-star" id="star"></i>
+                        </div>
+                        <b id="videos-txt">Videos</b>
+                    </div>
+                    <div id="type-box">
+                        <div id="pdffiles">
+                            <i class="fa-solid fa-ellipsis-vertical" id="ellipsis"></i>
+                            <div id="circle-pdffiles">
+                                <img src="Images/pdf.png" alt="" id="image-types">
+                            </div>
+                            <i class="fa-solid fa-star" id="star"></i>
+                        </div>
+                        <b id="pdffiles-txt">PDF Files</b>
+                    </div>
+                    <div id="type-box">
+                        <div id="audio">
+                            <i class="fa-solid fa-ellipsis-vertical" id="ellipsis"></i>
+                            <div id="circle-audio">
+                                <img src="Images/mp3-icon-14.jpg" alt="" id="image-types">
+                            </div>
+                            <i class="fa-solid fa-star" id="star"></i>
+                        </div>
+                        <b id="audio-txt">Audio</b>
+                    </div>
+                </div>
+                <div id="filter-bar1">
+                    <h1 id="folder-font">Recent Folder</h1>
+                    <div id="filter-r">
+                        <div id="recent-box">
+                            <b>Recent</b>
+                            <i class="fa-solid fa-chevron-down" id="chevron"></i>
+                        </div>
+                        <div id="elippsis"><i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <div id="projects">
+                        <div id="up">
+                            <div id="up-l">
+                                <i class="fa-solid fa-folder-closed" id="folder"></i>
+                                <b>Project Details</b>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical" id="ellipsis-projects"></i>
+                        </div>
+                        <div id="mid">
+                            <b id="grey-txt">250MB . 5 Members</b> <b id="team-txt"> .Team Plan</b>
+                        </div>
+                        <div id="bot">
+
+                            <div id="members">
+                                <img src="/Images/beleza-salao1-gd-768x512.png" alt="" id="members-img">
+                                <img src="/Images/beleza-salao1-gd-768x512.png" alt="" id="members-img">
+                                <img src="/Images/beleza-salao1-gd-768x512.png" alt="" id="members-img">
+                                <img src="/Images/beleza-salao1-gd-768x512.png" alt="" id="members-img">
+                                <img src="/Images/beleza-salao1-gd-768x512.png" alt="" id="members-img">
+                            </div>
+                            <b id="files12">12 files</b>
+                        </div>
+                    </div>
+                    <div id="projects">
+                        <div id="up">
+                            <div id="up-l">
+                                <i class="fa-solid fa-folder-closed" id="folder"></i>
+                                <b>Client Meeting</b>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical" id="ellipsis-projects"></i>
+                        </div>
+                        <div id="mid">
+                            <b id="grey-txt">100MB . 2 Members</b> <b id="team-txt"> .Team Plan</b>
+                        </div>
+                        <div id="bot">
+
+                            <div id="members">
+                                <img src="/Images/beleza-salao1-gd-768x512.png" alt="" id="members-img">
+                                <img src="/Images/beleza-salao1-gd-768x512.png" alt="" id="members-img">
+
+                            </div>
+                            <b id="files12">05 files</b>
+                        </div>
+                    </div>
+                    <div id="projects">
+                        <div id="up">
+                            <div id="up-l">
+                                <i class="fa-solid fa-folder-closed" id="folder"></i>
+                                <b>Payment</b>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical" id="ellipsis-projects"></i>
+                        </div>
+                        <div id="mid">
+                            <b id="grey-txt">188MB . 6 Members</b> <b id="team-txt"> .Team Plan</b>
+                        </div>
+                        <div id="bot">
+
+                            <div id="members">
+                                <img src="/Images/beleza-salao1-gd-768x512.png" alt="" id="members-img">
+                                <img src="/Images/beleza-salao1-gd-768x512.png" alt="" id="members-img">
+                                <img src="/Images/beleza-salao1-gd-768x512.png" alt="" id="members-img">
+                                <img src="/Images/beleza-salao1-gd-768x512.png" alt="" id="members-img">
+                                <img src="/Images/beleza-salao1-gd-768x512.png" alt="" id="members-img">
+                                <img src="/Images/beleza-salao1-gd-768x512.png" alt="" id="members-img">
+                            </div>
+                            <b id="files12">12 files</b>
+                        </div>
+                    </div>
+                </div>
+                <div id="filter-bar2">
+                    <h1 id="folder-font">Files</h1>
+                    <div id="filter-r">
+                        <div id="recent-box">
+                            <b>All Files</b>
+                            <i class="fa-solid fa-chevron-down" id="chevron"></i>
+                        </div>
+                        <div id="elippsis"><i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <div id="files-line">
+                        <div id="up2">
+                            <div id="up-l2">
+                                <img src="Images/xlsx_icon.svg.png" id="icon">
+                                <b>Project Quotation.xlsx</b>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical" id="ellipsis-projects2"></i>
+                        </div>
+                        <div id="mid-2">
+                            <b id="grey-txt">20 Aug . 5Members . 2MB</b>
+                            <i class="fa-solid fa-star" id="star-2"></i>
+                        </div>
+
+                    </div>
+                    <div id="files-line">
+                        <div id="up2">
+                            <div id="up-l2">
+                                <img src="Images/icon-zip-15.jpg" alt="" id="icon">
+                                <b>Project-Details.Zip</b>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical" id="ellipsis-projects2"></i>
+                        </div>
+                        <div id="mid-2">
+                            <b id="grey-txt">20 Aug . 3 Members . 3MB</b>
+                            <i class="fa-solid fa-star" id="star-2"></i>
+                        </div>
+
+                    </div>
+                    <div id="files-line">
+                        <div id="up2">
+                            <div id="up-l2">
+                                <img src="Images/Adobe_Illustrator_CC_icon.svg.png" alt="" id="icon">
+                                <b>Banners.ai</b>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical" id="ellipsis-projects2"></i>
+                        </div>
+                        <div id="mid-2">
+                            <b id="grey-txt">20 Aug . 4 Members . 25MB</b>
+                            <i class="fa-solid fa-star" id="star-2"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="archives-top">
+                    <div class="container-arch">
+                        <div class="name">
+                            <input id="check" type="checkbox">
+                            <p>NAME</p>
+                        </div>
+                        <p>CREATED BY</p>
+                        <P>SIZE</P>
+                        <P>CREATED</P>
+                        <P>LAST MODIFIED</P>
+                        <P>ACTION</P>
+                    </div>
+                </div>
+                <div class="archives-mid">
+                    <div class="container-arch">
+                        <div class="name">
+                            <input type="checkbox">
+                            <b>Meeting.Mp4</b>
+                        </div>
+                        <div id="created-by">
+                            <div id="created-user">
+                                <img src="/Images/beleza-salao1-gd-768x512.png" id="userimg" />
+                            </div>
+                            <div id="created-name-box"><b>Jennifer</b>
+                                <p>Client</p>
+                            </div>
+                        </div>
+                        <b id="mb">35MB</b>
+                        <P>20-08-2022</P>
+                        <P>20-08-2022</P>
+                        <div id="action-box">
+                            <div id="action-link">
+                                <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div id="action-ellipsis"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="archives-mid">
+                    <div class="container-arch">
+                        <div class="name">
+                            <input type="checkbox">
+                            <b>Mobile Application APK</b>
+                        </div>
+                        <div id="created-by">
+                            <div id="created-user">
+                                <img src="/Images/beleza-salao1-gd-768x512.png" id="userimg" />
+                            </div>
+                            <div id="created-name-box"><b>Jennifer</b>
+                                <p>Client</p>
+                            </div>
+                        </div>
+                        <b id="mb">16MB</b>
+                        <P>15-08-2022</P>
+                        <P>19-08-2022</P>
+                        <div id="action-box">
+                            <div id="action-link">
+                                <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div id="action-ellipsis"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="archives-bot">
+                    <div class="container-arch">
+                        <div class="name">
+                            <input type="checkbox">
+                            <b>Dashboard.HTML</b>
+                        </div>
+                        <div id="created-by">
+                            <div id="created-user">
+                                <img src="/Images/beleza-salao1-gd-768x512.png" id="userimg" />
+                            </div>
+                            <div id="created-name-box"><b>Cristopher JD</b>
+                                <p>Client</p>
+                            </div>
+                        </div>
+                        <b id="mb">256KB</b>
+                        <P>11-08-2022</P>
+                        <P>20-08-2022</P>
+                        <div id="action-box">
+                            <div id="action-link">
+                                <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div id="action-ellipsis"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+</body>
+
+</html>
